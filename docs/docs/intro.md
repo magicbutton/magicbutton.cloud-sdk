@@ -2,63 +2,71 @@
 sidebar_position: 1
 ---
 
-# Magic Button SDK
+# Magic Button Cloud
 
-Welcome to the **Magic Button Cloud SDK** documentation. This SDK provides a powerful, yet simple interface to interact with the Magic Button Cloud API.
+Welcome to the **Magic Button Cloud** documentation. Magic Button Cloud is a comprehensive platform that provides powerful tools and libraries for building modern, distributed applications.
 
-## Overview
+![Magic Button Cloud](https://via.placeholder.com/800x400?text=Magic+Button+Cloud)
 
-Magic Button is a cloud platform that allows you to create, manage, and deploy your AI applications with ease. The Magic Button Cloud SDK provides a seamless way to integrate your applications with the Magic Button platform.
+## What is Magic Button Cloud?
 
-## Key Features
+Magic Button Cloud is a suite of developer tools and libraries designed to simplify the development of complex, distributed applications. Our platform offers:
 
-- **Simple Integration**: Easy-to-use API for quick implementation
-- **Comprehensive Coverage**: Access to all Magic Button Cloud features
-- **Type Safety**: Full TypeScript support with complete type definitions
-- **Error Handling**: Robust error handling and detailed error messages
-- **Performance**: Optimized for high performance and reliability
+1. **Type-Safe Communication**: Build robust inter-service communication with contract-first design
+2. **Distributed Systems Tools**: Solve common distributed systems challenges with purpose-built libraries
+3. **Developer Experience**: Enhance productivity with tools that prioritize developer experience
 
-## Installation
+## Key Components
 
-Installing the SDK is simple:
+Magic Button Cloud includes several key components:
 
-```bash
-npm install @magicbutton/cloud-sdk
-```
+### Magic Button Messaging
 
-or with yarn:
+A type-safe, domain-driven design framework for distributed systems communication. It provides a robust foundation for building scalable, maintainable, and secure communication between distributed system components.
 
-```bash
-yarn add @magicbutton/cloud-sdk
-```
+[Learn more about Magic Button Messaging →](messaging/overview)
 
-## Quick Example
+### Coming Soon
 
-Here's a quick example of how to use the SDK:
+We're actively developing additional components for the Magic Button Cloud platform:
 
-```typescript
-import { MagicButtonClient } from '@magicbutton/cloud-sdk';
+- **Magic Button State**: A distributed state management system
+- **Magic Button Auth**: A comprehensive authentication and authorization solution
+- **Magic Button Observability**: A unified observability platform for distributed applications
 
-// Initialize the client
-const client = new MagicButtonClient({
-  apiKey: 'your-api-key',
-});
+## Why Magic Button Cloud?
 
-// Make API calls
-async function example() {
-  try {
-    const result = await client.someOperation({
-      // parameters
-    });
-    console.log('Operation successful:', result);
-  } catch (error) {
-    console.error('Operation failed:', error);
-  }
-}
-```
+### Challenges of Modern Applications
 
-## Next Steps
+Building modern applications comes with numerous challenges:
 
-- [Installation](getting-started/installation): Detailed installation instructions
-- [Quick Start](getting-started/quick-start): Get up and running quickly
-- [API Reference](api/overview): Explore the full API documentation
+- **Distributed Architecture**: Managing communication between services
+- **Type Safety**: Ensuring consistency across service boundaries
+- **Scalability**: Building systems that can scale with demand
+- **Resilience**: Creating robust applications that handle failures gracefully
+- **Developer Productivity**: Maintaining high developer velocity while tackling complex problems
+
+### The Magic Button Solution
+
+Magic Button Cloud addresses these challenges with:
+
+- **Contract-First Design**: Define your system's contracts with complete type safety
+- **Pluggable Architecture**: Adapt to your specific needs with modular, pluggable components
+- **Full TypeScript Support**: Get end-to-end type safety and excellent developer experience
+- **Best Practices Built-In**: Benefit from patterns and practices proven in production systems
+- **Comprehensive Documentation**: Learn quickly with detailed guides and examples
+
+## Get Started
+
+Ready to explore Magic Button Cloud? Start with our Messaging library:
+
+- [Messaging Overview](messaging/overview): Learn about the Messaging library
+- [Installation](messaging/installation): Install the Messaging library
+- [Quick Start](messaging/quick-start): Build your first application with Magic Button Messaging
+
+## Community and Support
+
+- **GitHub**: [https://github.com/magicbutton/magicbutton.cloud](https://github.com/magicbutton/magicbutton.cloud)
+- **Discord**: Join our community on Discord [coming soon]
+- **Twitter**: Follow us [@magicbuttoncloud](https://twitter.com/magicbuttoncloud)
+- **Email Support**: support@magicbutton.cloud

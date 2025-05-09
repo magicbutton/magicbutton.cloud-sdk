@@ -1,4 +1,4 @@
-import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
+import type { SidebarsConfig } from "@docusaurus/plugin-content-docs";
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -15,24 +15,48 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 const sidebars: SidebarsConfig = {
   // Main documentation sidebar
   tutorialSidebar: [
-    'intro',
+    "intro",
     {
-      type: 'category',
-      label: 'Getting Started',
+      type: "category",
+      label: "Messaging",
+      collapsed: false,
       items: [
-        'getting-started/installation',
-        'getting-started/quick-start',
-        'getting-started/authentication',
+        "messaging/overview",
+        "messaging/installation",
+        "messaging/quick-start",
+        {
+          type: "category",
+          label: "Core Concepts",
+          items: [
+            "messaging/core-concepts/contracts",
+            "messaging/core-concepts/transport",
+            "messaging/core-concepts/client-server",
+            "messaging/core-concepts/message-context",
+          ],
+        },
+        {
+          type: "category",
+          label: "Features",
+          items: [
+            "messaging/features/access-control",
+            "messaging/features/middleware",
+            "messaging/features/error-handling",
+            "messaging/features/observability",
+          ],
+        },
+        {
+          type: "category",
+          label: "API Reference",
+          items: [
+            "messaging/api/client",
+            "messaging/api/server",
+            "messaging/api/transport-adapter",
+            "messaging/api/access-control",
+          ],
+        },
+        "messaging/examples",
       ],
     },
-    {
-      type: 'category',
-      label: 'Guides',
-      items: [
-        'guides/basic-usage',
-      ],
-    },
-    'faq',
   ],
 };
 
