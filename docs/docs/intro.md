@@ -13,8 +13,9 @@ Welcome to the **Magic Button Cloud** documentation. Magic Button Cloud is a com
 Magic Button Cloud is a suite of developer tools and libraries designed to simplify the development of complex, distributed applications. Our platform offers:
 
 1. **Type-Safe Communication**: Build robust inter-service communication with contract-first design
-2. **Distributed Systems Tools**: Solve common distributed systems challenges with purpose-built libraries
-3. **Developer Experience**: Enhance productivity with tools that prioritize developer experience
+2. **Authentication & Authorization**: Implement secure, flexible auth systems with minimal effort
+3. **Distributed Systems Tools**: Solve common distributed systems challenges with purpose-built libraries
+4. **Developer Experience**: Enhance productivity with tools that prioritize developer experience
 
 ## Key Components
 
@@ -26,12 +27,17 @@ A type-safe, domain-driven design framework for distributed systems communicatio
 
 [Learn more about Magic Button Messaging →](messaging/overview)
 
+### Magic Button Auth
+
+A comprehensive authentication and authorization solution for TypeScript and React applications. It provides seamless identity management, access control, and security features with support for multiple authentication methods.
+
+[Learn more about Magic Button Auth →](auth/overview)
+
 ### Coming Soon
 
 We're actively developing additional components for the Magic Button Cloud platform:
 
 - **Magic Button State**: A distributed state management system
-- **Magic Button Auth**: A comprehensive authentication and authorization solution
 - **Magic Button Observability**: A unified observability platform for distributed applications
 
 ## Why Magic Button Cloud?
@@ -42,6 +48,7 @@ Building modern applications comes with numerous challenges:
 
 - **Distributed Architecture**: Managing communication between services
 - **Type Safety**: Ensuring consistency across service boundaries
+- **Authentication & Security**: Implementing secure authentication and authorization
 - **Scalability**: Building systems that can scale with demand
 - **Resilience**: Creating robust applications that handle failures gracefully
 - **Developer Productivity**: Maintaining high developer velocity while tackling complex problems
@@ -51,6 +58,7 @@ Building modern applications comes with numerous challenges:
 Magic Button Cloud addresses these challenges with:
 
 - **Contract-First Design**: Define your system's contracts with complete type safety
+- **Secure Authentication**: Implement authentication and authorization with minimal effort
 - **Pluggable Architecture**: Adapt to your specific needs with modular, pluggable components
 - **Full TypeScript Support**: Get end-to-end type safety and excellent developer experience
 - **Best Practices Built-In**: Benefit from patterns and practices proven in production systems
@@ -58,11 +66,14 @@ Magic Button Cloud addresses these challenges with:
 
 ## Get Started
 
-Ready to explore Magic Button Cloud? Start with our Messaging library:
+Ready to explore Magic Button Cloud? Start with our libraries:
 
 - [Messaging Overview](messaging/overview): Learn about the Messaging library
-- [Installation](messaging/installation): Install the Messaging library
-- [Quick Start](messaging/quick-start): Build your first application with Magic Button Messaging
+- [Auth Overview](auth/overview): Learn about the Auth library
+- [Messaging Installation](messaging/installation): Install the Messaging library
+- [Auth Installation](auth/installation): Install the Auth library
+- [Messaging Quick Start](messaging/quick-start): Build your first application with Magic Button Messaging
+- [Auth Quick Start](auth/quick-start): Implement authentication with Magic Button Auth
 
 ## Community and Support
 

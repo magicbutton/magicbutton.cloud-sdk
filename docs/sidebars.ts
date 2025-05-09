@@ -57,6 +57,20 @@ const sidebars: SidebarsConfig = {
         "messaging/examples",
       ],
     },
+    {
+      type: "category",
+      label: "Auth",
+      collapsed: false,
+      items: [
+        "auth/overview",
+        "auth/installation",
+        "auth/quick-start",
+        "auth/authentication",
+        "auth/access-control",
+        "auth/components",
+        "auth/hooks",
+      ],
+    },
   ],
 };
 
