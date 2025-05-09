@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Simple Integration Icon</title>
+    <g id="IntegrationIcon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Background" fill="#1E3771" cx="100" cy="100" r="90"></circle>
+        <g id="PuzzlePieces" transform="translate(40, 40)">
+            <rect id="Piece1" fill="#FFFFFF" x="0" y="0" width="50" height="50" rx="10"></rect>
+            <rect id="Piece2" fill="#FFFFFF" x="70" y="0" width="50" height="50" rx="10"></rect>
+            <rect id="Piece3" fill="#FFFFFF" x="0" y="70" width="50" height="50" rx="10"></rect>
+            <rect id="Piece4" fill="#FFFFFF" x="70" y="70" width="50" height="50" rx="10"></rect>
+            <path d="M50,25 L70,25" id="Connector1" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round"></path>
+            <path d="M25,50 L25,70" id="Connector2" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round"></path>
+            <path d="M95,50 L95,70" id="Connector3" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round"></path>
+            <path d="M50,95 L70,95" id="Connector4" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round"></path>
+        </g>
+    </g>
+</svg>

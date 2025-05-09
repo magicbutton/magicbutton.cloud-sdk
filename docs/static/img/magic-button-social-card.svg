@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200px" height="630px" viewBox="0 0 1200 630" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Magic Button Social Card</title>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient">
+            <stop stop-color="#1E3771" offset="0%"></stop>
+            <stop stop-color="#14264F" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="url(#linearGradient)" x="0" y="0" width="1200" height="630"></rect>
+        <g transform="translate(140, 120)">
+            <g transform="translate(0, 0)">
+                <text font-family="Arial, sans-serif" font-size="120" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="0" y="120">Magic Button</tspan>
+                </text>
+                <text font-family="Arial, sans-serif" font-size="80" font-weight="normal" fill="#FFFFFF" opacity="0.8">
+                    <tspan x="0" y="220">Cloud SDK</tspan>
+                </text>
+            </g>
+            <g transform="translate(0, 280)">
+                <text font-family="Arial, sans-serif" font-size="40" font-weight="normal" fill="#FFFFFF" opacity="0.7">
+                    <tspan x="0" y="40">Official JavaScript/TypeScript SDK</tspan>
+                    <tspan x="0" y="90">for the Magic Button Cloud API</tspan>
+                </text>
+            </g>
+        </g>
+        <g transform="translate(900, 150)">
+            <rect fill="#FFFFFF" x="0" y="0" width="200" height="120" rx="60"></rect>
+            <path d="M60,60 L140,60" stroke="#1E3771" stroke-width="12" stroke-linecap="round"></path>
+        </g>
+        <g transform="translate(800, 320)">
+            <path d="M40,40 L50,50 L70,30" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M140,40 L150,50 L170,30" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" transform="translate(155, 40) scale(-1, 1) translate(-155, -40)"></path>
+            <path d="M30,150 L40,160 L60,140" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M140,150 L150,160 L170,140" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" transform="translate(155, 150) scale(-1, 1) translate(-155, -150)"></path>
+        </g>
+    </g>
+</svg>

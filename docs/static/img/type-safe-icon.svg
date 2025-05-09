@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Type-Safe Icon</title>
+    <g id="TypeSafeIcon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Background" fill="#1E3771" cx="100" cy="100" r="90"></circle>
+        <g id="TypeSafeSymbol" transform="translate(40, 40)" fill="#FFFFFF">
+            <path d="M0,0 L120,0 L120,25 L75,25 L75,120 L45,120 L45,25 L0,25 Z" id="T"></path>
+            <path d="M90,85 L110,65 C115,60 120,60 120,65 L120,115 C120,120 115,120 110,115 L90,95 L90,85 Z" id="Angle"></path>
+        </g>
+    </g>
+</svg>

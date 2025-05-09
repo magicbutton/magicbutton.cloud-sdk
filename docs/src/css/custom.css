@@ -1,0 +1,151 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  /* Navy blue color from the Magic Button logo */
+  --ifm-color-primary: #1e3771;
+  --ifm-color-primary-dark: #1b3166;
+  --ifm-color-primary-darker: #192e60;
+  --ifm-color-primary-darkest: #14264f;
+  --ifm-color-primary-light: #213d7c;
+  --ifm-color-primary-lighter: #234282;
+  --ifm-color-primary-lightest: #284a93;
+
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  /* Additional custom colors */
+  --mb-light-gray: #f5f6f7;
+  --mb-navy-blue: #1e3771;
+  --mb-dark-blue: #152a57;
+  --mb-white: #ffffff;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #4e68a6;
+  --ifm-color-primary-dark: #465e96;
+  --ifm-color-primary-darker: #42598e;
+  --ifm-color-primary-darkest: #364a75;
+  --ifm-color-primary-light: #5f77b0;
+  --ifm-color-primary-lighter: #677eb5;
+  --ifm-color-primary-lightest: #8094c2;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  /* Additional custom colors for dark mode */
+  --mb-dark-background: #13203f;
+  --mb-darker-background: #0f1b36;
+
+  /* Override background colors for dark mode */
+  --ifm-background-color: var(--mb-dark-background);
+  --ifm-background-surface-color: var(--mb-darker-background);
+}
+
+/* Custom styling for navbar */
+.navbar {
+  background-color: var(--mb-navy-blue);
+}
+
+.navbar__title,
+.navbar__link,
+.navbar__logo {
+  color: var(--mb-white);
+}
+
+/* Footer styling */
+.footer {
+  background-color: var(--mb-dark-blue);
+}
+
+/* Make the logo image smaller to fit better in the navbar */
+.navbar__logo img {
+  height: 32px;
+  width: auto;
+}
+
+/* Style primary buttons to match the Magic Button brand */
+.button--primary {
+  background-color: var(--mb-navy-blue);
+  color: white;
+  border-color: var(--mb-navy-blue);
+}
+
+.button--primary:hover {
+  background-color: var(--ifm-color-primary-darker);
+  border-color: var(--ifm-color-primary-darker);
+}
+
+/* Style for code blocks */
+.theme-code-block {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 1.5rem 0;
+}
+
+/* Enhance dark mode code blocks */
+[data-theme='dark'] .theme-code-block {
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Code styling */
+:root {
+  --ifm-code-background: rgba(30, 55, 113, 0.06);
+}
+
+[data-theme='dark'] {
+  --ifm-code-background: rgba(255, 255, 255, 0.06);
+}
+
+code {
+  border-radius: 4px;
+  border: 1px solid rgba(30, 55, 113, 0.1);
+  padding: 0.2rem 0.4rem;
+}
+
+[data-theme='dark'] code {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Add a subtle border to cards */
+.card {
+  border: 1px solid var(--ifm-color-emphasis-200);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Hero section styling */
+.hero {
+  background-color: var(--mb-navy-blue);
+  color: white;
+}
+
+.hero__subtitle {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Custom styling for tables */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+th {
+  background-color: var(--ifm-color-primary-lightest);
+  color: var(--ifm-font-color-base);
+}
+
+[data-theme='dark'] th {
+  background-color: var(--ifm-color-primary-darkest);
+  color: var(--ifm-font-color-base);
+}
