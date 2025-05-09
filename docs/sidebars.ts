@@ -71,6 +71,14 @@ const sidebars: SidebarsConfig = {
         "auth/hooks",
       ],
     },
+    {
+      type: "category",
+      label: "State",
+      collapsed: false,
+      items: [
+        "state/overview",
+      ],
+    },
   ],
 };
 
