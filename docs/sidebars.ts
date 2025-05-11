@@ -18,6 +18,14 @@ const sidebars: SidebarsConfig = {
     "intro",
     {
       type: "category",
+      label: "Concepts",
+      collapsed: false,
+      items: [
+        "concepts/browser-extension",
+      ],
+    },
+    {
+      type: "category",
       label: "Messaging",
       collapsed: false,
       items: [
@@ -75,8 +83,21 @@ const sidebars: SidebarsConfig = {
       type: "category",
       label: "State",
       collapsed: false,
+      items: ["state/overview"],
+    },
+  ],
+  // AI sidebar
+  aiSidebar: [
+    {
+      type: "category",
+      label: "Claude",
+      collapsed: false,
       items: [
-        "state/overview",
+        "ai/claude/overview",
+        "ai/claude/prompt-templates",
+        "ai/claude/contract-generation",
+        "ai/claude/integration-patterns",
+        "ai/claude/best-practices",
       ],
     },
   ],

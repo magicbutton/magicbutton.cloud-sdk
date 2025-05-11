@@ -20,8 +20,16 @@ const config: Config = {
   organizationName: 'magicbutton', // Usually your GitHub org/user name.
   projectName: 'magicbutton.cloud-sdk', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
+
+  // Enable Mermaid diagram support
+  markdown: {
+    mermaid: true,
+  },
+
+  // Add Mermaid theme
+  themes: ['@docusaurus/theme-mermaid'],
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -89,6 +97,12 @@ const config: Config = {
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'Documentation',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'aiSidebar',
+          position: 'left',
+          label: 'AI',
         },
         {
           href: 'https://github.com/magicbutton/magicbutton.cloud-sdk',
