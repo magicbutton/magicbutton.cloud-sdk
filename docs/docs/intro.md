@@ -6,7 +6,10 @@ sidebar_position: 1
 
 Welcome to the **Magic Button Cloud** documentation. Magic Button Cloud is a comprehensive platform that provides powerful tools and libraries for building modern, distributed applications.
 
-![Magic Button Cloud](https://via.placeholder.com/800x400?text=Magic+Button+Cloud)
+
+
+![Magic Button Cloud](2025-05-13-20-34-16.png)
+
 
 ## What is Magic Button Cloud?
 

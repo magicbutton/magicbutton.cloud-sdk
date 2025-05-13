@@ -31,6 +31,7 @@ const sidebars: SidebarsConfig = {
       collapsed: false,
       items: [
         "concepts/browser-extension",
+        "concepts/nats-architecture",
       ],
     },
     {
