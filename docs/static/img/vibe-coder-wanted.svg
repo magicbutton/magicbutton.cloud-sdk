@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="500" height="600" viewBox="0 0 500 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with gradient -->
+  <rect width="500" height="600" fill="url(#paint0_linear)"/>
+  
+  <!-- Developer figure silhouette with laptop -->
+  <path d="M250 150C291.421 150 325 116.421 325 75C325 33.5786 291.421 0 250 0C208.579 0 175 33.5786 175 75C175 116.421 208.579 150 250 150Z" fill="#f0f0f0"/>
+  
+  <!-- Laptop -->
+  <rect x="150" y="240" width="200" height="120" rx="10" fill="#333"/>
+  <rect x="160" y="250" width="180" height="90" rx="5" fill="#6EB5FF"/>
+  <rect x="130" y="360" width="240" height="20" rx="5" fill="#333"/>
+  
+  <!-- Headphones -->
+  <path d="M175 80C175 80 165 90 165 110C165 130 175 130 175 130" stroke="#333" stroke-width="5"/>
+  <path d="M325 80C325 80 335 90 335 110C335 130 325 130 325 130" stroke="#333" stroke-width="5"/>
+  <ellipse cx="165" cy="110" rx="10" ry="15" fill="#333"/>
+  <ellipse cx="335" cy="110" rx="10" ry="15" fill="#333"/>
+  
+  <!-- Code symbols on screen -->
+  <text x="180" y="280" fill="#ffffff" font-family="monospace" font-size="14">&lt;/&gt;</text>
+  <text x="230" y="300" fill="#ffffff" font-family="monospace" font-size="14">{ }</text>
+  <text x="280" y="320" fill="#ffffff" font-family="monospace" font-size="14">()</text>
+  
+  <!-- "Are You a Vibe Coder?" text -->
+  <text x="250" y="450" fill="#ffffff" font-family="Impact, sans-serif" font-size="36" text-anchor="middle" font-weight="bold">ARE YOU A</text>
+  <text x="250" y="500" fill="#ffffff" font-family="Impact, sans-serif" font-size="48" text-anchor="middle" font-weight="bold">VIBE CODER?</text>
+  
+  <!-- Pointing finger -->
+  <path d="M250 200L250 220M250 220L230 240M250 220L270 240" stroke="#ffffff" stroke-width="5"/>
+  <ellipse cx="250" cy="180" rx="15" ry="20" fill="#f0f0f0"/>
+  
+  <!-- Secondary text -->
+  <text x="250" y="550" fill="#ffffff" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">Magic Button Cloud Wants You!</text>
+  
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="500" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3b82f6"/>
+      <stop offset="1" stop-color="#ff4d4d"/>
+    </linearGradient>
+  </defs>
+</svg>

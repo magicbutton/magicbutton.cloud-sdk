@@ -1,27 +1,28 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
-import type * as Preset from '@docusaurus/preset-classic';
+import { themes as prismThemes } from "prism-react-renderer";
+import type { Config } from "@docusaurus/types";
+import type * as Preset from "@docusaurus/preset-classic";
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Magic Button SDK',
-  tagline: 'Documentation for the Magic Button Cloud SDK',
-  favicon: 'img/MagicButtonLightGrey.png',
+  title: "Magic Button Cloud SDK",
+  tagline:
+    "An Open Source Contract-first SDK for building solutions independent of third-party services",
+  favicon: "img/MagicButtonLightGrey.png",
 
   // Set the production url of your site here
-  url: 'https://docs.magicbutton.cloud',
+  url: "https://code.magicbutton.cloud",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'magicbutton', // Usually your GitHub org/user name.
-  projectName: 'magicbutton.cloud-sdk', // Usually your repo name.
+  organizationName: "magicbutton", // Usually your GitHub org/user name.
+  projectName: "magicbutton.cloud-sdk", // Usually your repo name.
 
-  onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: "warn",
+  onBrokenMarkdownLinks: "warn",
 
   // Enable Mermaid diagram support
   markdown: {
@@ -29,44 +30,44 @@ const config: Config = {
   },
 
   // Add Mermaid theme
-  themes: ['@docusaurus/theme-mermaid'],
+  themes: ["@docusaurus/theme-mermaid"],
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
 
   presets: [
     [
-      'classic',
+      "classic",
       {
         docs: {
-          sidebarPath: './sidebars.ts',
+          sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/magicbutton/magicbutton.cloud-sdk/tree/main/docs/',
+            "https://github.com/magicbutton/magicbutton.cloud-sdk/tree/main/docs/",
         },
         blog: {
           showReadingTime: true,
           feedOptions: {
-            type: ['rss', 'atom'],
+            type: ["rss", "atom"],
             xslt: true,
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/magicbutton/magicbutton.cloud-sdk/tree/main/docs/',
+            "https://github.com/magicbutton/magicbutton.cloud-sdk/tree/main/docs/",
           // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
+          onInlineTags: "warn",
+          onInlineAuthors: "warn",
+          onUntruncatedBlogPosts: "warn",
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: "./src/css/custom.css",
         },
       } satisfies Preset.Options,
     ],
@@ -74,82 +75,100 @@ const config: Config = {
 
   themeConfig: {
     // Magic Button social card
-    image: 'img/magic-button-social-card.svg',
+    image: "img/magic-button-social-card.svg",
     // Top announcement bar
     announcementBar: {
-      id: 'magic_button_sdk',
+      id: "magic_button_sdk",
       content:
         '⭐️ Magic Button Cloud SDK: <a href="/docs/intro">Check out our documentation</a>',
-      backgroundColor: '#1E3771',
-      textColor: '#FFFFFF',
+      backgroundColor: "#1E3771",
+      textColor: "#FFFFFF",
       isCloseable: true,
     },
     navbar: {
-      title: 'Magic Button SDK',
+      title: "Magic Button SDK",
       logo: {
-        alt: 'Magic Button Logo',
-        src: 'img/MagicButtonLightGrey.png',
-        srcDark: 'img/MagicButtonLightGrey.png', // Use same logo for dark mode
+        alt: "Magic Button Logo",
+        src: "img/MagicButtonLightGrey.png",
+        srcDark: "img/MagicButtonLightGrey.png", // Use same logo for dark mode
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Documentation',
+          type: "docSidebar",
+          sidebarId: "tutorialSidebar",
+          position: "left",
+          label: "Documentation",
         },
         {
-          type: 'docSidebar',
-          sidebarId: 'aiSidebar',
-          position: 'left',
-          label: 'AI',
+          type: "docSidebar",
+          sidebarId: "typescriptSidebar",
+          position: "left",
+          label: "TypeScript",
         },
         {
-          href: 'https://github.com/magicbutton/magicbutton.cloud-sdk',
-          label: 'GitHub',
-          position: 'right',
+          type: "docSidebar",
+          sidebarId: "aiSidebar",
+          position: "left",
+          label: "AI",
+        },
+        {
+          href: "https://magicbutton.cloud",
+          label: "Magic Button Cloud",
+          position: "right",
+        },
+        {
+          href: "https://github.com/magicbutton/magicbutton.cloud-sdk",
+          label: "GitHub",
+          position: "right",
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [
         {
-          title: 'Docs',
+          title: "Docs",
           items: [
             {
-              label: 'Getting Started',
-              to: '/docs/intro',
+              label: "Getting Started",
+              to: "/docs/intro",
             },
           ],
         },
         {
-          title: 'Community',
+          title: "Community",
           items: [
             {
-              label: 'GitHub',
-              href: 'https://github.com/magicbutton/magicbutton.cloud-sdk',
+              label: "GitHub",
+              href: "https://github.com/magicbutton/magicbutton.cloud-sdk",
             },
           ],
         },
         {
-          title: 'More',
+          title: "More",
           items: [
             {
-              label: 'Magic Button',
-              href: 'https://magicbutton.cloud',
+              label: "Magic Button",
+              href: "https://magicbutton.cloud",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Magic Button. All rights reserved.`,
+      logo: {
+        alt: "Magic Button SDK Logo",
+        src: "img/MagicButtonLightGrey.png",
+        width: 60,
+        height: 60,
+      },
+
+      copyright: `An Open Source Contract-first SDK for building solutions independent of third-party services | Copyright © ${new Date().getFullYear()} Magic Button. All rights reserved.`,
     },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
     colorMode: {
-      defaultMode: 'light',
+      defaultMode: "light",
       disableSwitch: false,
       respectPrefersColorScheme: true,
     },

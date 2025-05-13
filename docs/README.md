@@ -63,3 +63,5 @@ You can use the deployment script to deploy to different platforms:
 # Deploy to Vercel
 ./scripts/deploy.sh vercel
 ```
+
+![](2025-05-13-15-09-28.png)
