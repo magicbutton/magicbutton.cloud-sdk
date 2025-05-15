@@ -16,6 +16,18 @@ const sidebars: SidebarsConfig = {
   // Main documentation sidebar
   tutorialSidebar: [
     "intro",
+    "client-focus",
+    {
+      type: "category",
+      label: "Certification",
+      collapsed: false,
+      items: [
+        "certification/overview",
+        "certification/professional",
+        "certification/enterprise-architect",
+        "certification/security-specialist",
+      ],
+    },
     {
       type: "category",
       label: "Starter Prompts",
@@ -60,6 +72,7 @@ const sidebars: SidebarsConfig = {
             "messaging/features/middleware",
             "messaging/features/error-handling",
             "messaging/features/observability",
+            "messaging/features/enterprise",
           ],
         },
         {
