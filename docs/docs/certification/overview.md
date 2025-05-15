@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+unlisted: true
 ---
 
 # Magic Button Certification Program

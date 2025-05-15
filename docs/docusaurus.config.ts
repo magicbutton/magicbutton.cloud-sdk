@@ -40,6 +40,19 @@ const config: Config = {
     locales: ["en"],
   },
 
+  plugins: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        // Options for the search plugin
+        hashed: true, // Generate search-index.json for better performance
+        language: ["en"], // Set to the language of your documentation
+        indexDocs: true,
+        indexBlog: true,
+        docsRouteBasePath: "/docs",
+      },
+    ],
+  ],
   presets: [
     [
       "classic",

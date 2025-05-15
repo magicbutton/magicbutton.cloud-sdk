@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+unlisted: true
 ---
 
 # Enterprise Architect Certification
